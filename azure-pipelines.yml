@@ -19,8 +19,6 @@ steps:
     projects: 'CarBackEnd/Car.Tests/Car.Tests.csproj'
     publishTestResults: false
     
-
-
 - task: build
   inputs:
     command: 'build'
