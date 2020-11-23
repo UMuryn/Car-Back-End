@@ -27,7 +27,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '/CarBackEnd/CarBackEnd/*.csproj'
+    projects: 'CarBackEnd/CarBackEnd/CarBackEnd.csproj'
 
 - task: DotNetCoreCLI@2
   inputs:
